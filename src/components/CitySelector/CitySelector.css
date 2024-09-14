@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sideMenu {
+    width: 350px;
+    padding: 20px;
+    border-right: 2px solid #b1aeae;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .sideMenu h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .sideMenu button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #dbecf3;
+    color: rgb(21, 22, 24);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .sideMenu button:hover {
+    background-color: #88b4ad;
+  }
+  
+  .sideMenu input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .sideMenu button:last-of-type {
+    margin-top: 10px;
+  }
+  
+  .mainContent {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
